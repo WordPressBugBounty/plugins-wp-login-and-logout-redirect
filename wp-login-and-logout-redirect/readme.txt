@@ -1,9 +1,9 @@
 === WP Login and Logout Redirect ===
 Contributors: aminurislam01, pluginizelab
-Tags: WP login and logout redirect, wp login logout redirect, wordpress login logout redirect, wp redirect, redirect on login, redirect on logout, login redirect, logout redirect
+Tags: WP login and logout redirect, wp login logout redirect, wordpress login logout redirect, login redirect, logout redirect
 Requires at least: 3.7.0
-Tested up to: 6.6
-Stable tag: 3.0
+Tested up to: 6.8.2
+Stable tag: 3.1.3
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -60,6 +60,13 @@ Yes, go to Users->All Users from admin dashboard left sidebar menu.
 
 
 == Changelog ==
+
+= 3.1.1 =
+* [Improve] Re-structure full plugin codebase.
+* [Improve] Add support to login redirect even if wooCommerce is installed.
+
+= 3.1 =
+* Update plugin tags.
 
 = 3.0 =
 * Few security update.
