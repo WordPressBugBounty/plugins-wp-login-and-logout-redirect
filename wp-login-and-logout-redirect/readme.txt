@@ -3,8 +3,8 @@ Contributors: aminurislam01, pluginizelab
 Donate link: https://www.buymeacoffee.com/aiarnob
 Tags: WP login and logout redirect, wp login logout redirect, wordpress login logout redirect, login redirect, logout redirect
 Requires at least: 5.8
-Tested up to: 6.9
-Stable tag: 3.1.5
+Tested up to: 7.0
+Stable tag: 3.1.7
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -25,6 +25,9 @@ This plugin also show each users last/latest login date and time on admin dashbo
 
 = Latest Features =
 * Every User last login date and time shown on dashbaord all users page.
+
+== Support ==
+If you find this plugin useful, consider supporting its development through a [donation](https://www.buymeacoffee.com/aiarnob).
 
 
 == Installation ==
@@ -59,12 +62,17 @@ Yes, you can add login or logout link individually or both.
 Yes, go to Users->All Users from admin dashboard left sidebar menu.
 
 
-== Support ==
-If you find this plugin useful, consider supporting its development through a [donation](https://www.buymeacoffee.com/aiarnob).
-
-
 
 == Changelog ==
+= 3.1.7 =
+* [Improve] Fix PHPCS coding standard issues across all files.
+* [Security] Sanitize GET input with sanitize_text_field() and wp_unslash().
+* [Security] Use wp_safe_redirect() instead of wp_redirect() for logout redirection.
+* [Fix] Use underscores in hook name for WordPress naming convention compliance.
+
+= 3.1.6 =
+* [Fix] Fatal error when get_current_screen() is called before it is available.
+
 = 3.1.4 =
 * Compatibility check with latest WordPress Version.
 
