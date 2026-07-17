@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'pluginizelab/wp-login-logout-redirect',
-        'pretty_version' => '3.1.7',
-        'version' => '3.1.7.0',
-        'reference' => 'fcc2c51207c2af8c75de4d6950fcd2f8107b8126',
+        'pretty_version' => 'v4.0.0',
+        'version' => '4.0.0.0',
+        'reference' => '255a19c2e48f32b771c4edfeb4738d9dba4878ce',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'pluginizelab/wp-login-logout-redirect' => array(
-            'pretty_version' => '3.1.7',
-            'version' => '3.1.7.0',
-            'reference' => 'fcc2c51207c2af8c75de4d6950fcd2f8107b8126',
+            'pretty_version' => 'v4.0.0',
+            'version' => '4.0.0.0',
+            'reference' => '255a19c2e48f32b771c4edfeb4738d9dba4878ce',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
